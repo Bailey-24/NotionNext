@@ -23,12 +23,12 @@ const BLOG = {
   KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || '研究生, 机器人', // 网站关键词 英文逗号隔开
   // 社交链接，不需要可留空白，例如 CONTACT_WEIBO:''
   CONTACT_EMAIL: process.env.NEXT_PUBLIC_CONTACT_EMAIL || '2436442868@qq.com', // 邮箱地址 例如mail@tangly1024.com
-  CONTACT_GITHUB: process.env.NEXT_PUBLIC_CONTACT_GITHUB || 'https://github.com/Bailey-24', // 你的github个人主页 例如 https://github.com/tangly1024
   CONTACT_ZHIHU: process.env.NEXT_PUBLIC_CONTACT_ZHIHU || 'https://www.zhihu.com/people/ali-80-26', // 你的微博个人主页
-  CONTACT_CSDN: process.env.NEXT_PUBLIC_CONTACT_CSDN || 'https://blog.csdn.net/m0_48945359?spm=1011.2124.3001.5343',
-  CONTACT_XHS: process.env.NEXT_PUBLIC_CONTACT_XHS || 'https://www.xiaohongshu.com/user/profile/5d41ac66000000001200dba7', // 你的telegram 地址 例如 https://t.me/tangly_1024
-  CONTACT_BILI: process.env.NEXT_PUBLIC_CONTACT_BILI || 'https://space.bilibili.com/513257621?spm_id_from=333.337.0.0', // 你的linkedIn 首页
-  CONTACT_DOUYIN: process.env.NEXT_PUBLIC_CONTACT_DOUYIN || 'https://v.douyin.com/iheFGBo/', // 您的instagram地址
+  CONTACT_CSDN: process.env.NEXT_PUBLIC_CONTACT_CSDN || 'https://blog.csdn.net/m0_48945359?spm=1011.2124.3001.5343', // 你的twitter个人主页
+  CONTACT_GITHUB: process.env.NEXT_PUBLIC_CONTACT_GITHUB || 'https://github.com/Bailey-24', // 你的github个人主页 例如 https://github.com/tangly1024
+  CONTACT_TELEGRAM: process.env.NEXT_PUBLIC_CONTACT_TELEGRAM || 'https://www.xiaohongshu.com/user/profile/5d41ac66000000001200dba7', // 你的telegram 地址 例如 https://t.me/tangly_1024
+  CONTACT_LINKEDIN: process.env.NEXT_PUBLIC_CONTACT_LINKEDIN || 'https://space.bilibili.com/513257621?spm_id_from=333.337.0.0', // 你的linkedIn 首页
+  CONTACT_INSTAGRAM: process.env.NEXT_PUBLIC_CONTACT_INSTAGRAM || 'https://v.douyin.com/iheFGBo/', // 您的instagram地址
   CONTACT_JUEJIN: process.env.NEXT_PUBLIC_CONTACT_JUEJIN || 'https://juejin.cn/user/3732156597151325', // 您的instagram地址
 
 

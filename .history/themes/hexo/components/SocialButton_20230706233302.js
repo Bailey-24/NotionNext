@@ -15,19 +15,19 @@ const SocialButton = () => {
       {BLOG.CONTACT_GITHUB && <a target='_blank' rel='noreferrer' title={'github'} href={BLOG.CONTACT_GITHUB} >
         <i className='transform hover:scale-125 duration-150 fab fa-github dark:hover:text-indigo-400 hover:text-indigo-600'/>
       </a>}
-      {BLOG.CONTACT_ZHIHU && <a target='_blank' rel='noreferrer' title={'Zhihu'} href={BLOG.CONTACT_ZHIHU} >
+      {BLOG.CONTACT_ZHIHU && <a target='_blank' rel='noreferrer' title={'Zhihu'} href={BLOG.CONTACT_WEIBO} >
         <i className='transform hover:scale-125 duration-150 fab fa-zhihu dark:hover:text-indigo-400 hover:text-indigo-600'/>
       </a>}
-      {BLOG.CONTACT_CSDN && <a target='_blank' rel='noreferrer' title={'csdn'} href={BLOG.CONTACT_CSDN} >
+      {BLOG.CONTACT_TWITTER && <a target='_blank' rel='noreferrer' title={'csdn'} href={BLOG.CONTACT_TWITTER} >
         <i className='transform hover:scale-125 duration-150 fab fa-c dark:hover:text-indigo-400 hover:text-indigo-600'/>
       </a>}
-      {BLOG.CONTACT_XHS && <a target='_blank' rel='noreferrer' href={BLOG.CONTACT_XHS} title={'XiaoHongShu'} >
+      {BLOG.CONTACT_TELEGRAM && <a target='_blank' rel='noreferrer' href={BLOG.CONTACT_TELEGRAM} title={'XiaoHongShu'} >
         <i className='transform hover:scale-125 duration-150 fa-solid fa-book dark:hover:text-indigo-400 hover:text-indigo-600'/>
       </a>}
-      {BLOG.CONTACT_BILI && <a target='_blank' rel='noreferrer' href={BLOG.CONTACT_BILI} title={'Bilibili'} >
+      {BLOG.CONTACT_LINKEDIN && <a target='_blank' rel='noreferrer' href={BLOG.CONTACT_LINKEDIN} title={'Bilibili'} >
         <i className='transform hover:scale-125 duration-150 fab fa-bilibili dark:hover:text-indigo-400 hover:text-indigo-600'/>
       </a>}
-      {BLOG.CONTACT_DOUYIN && <a target='_blank' rel='noreferrer' title={'Tiktok'} href={BLOG.CONTACT_DOUYIN} >
+      {BLOG.CONTACT_INSTAGRAM && <a target='_blank' rel='noreferrer' title={'Tiktok'} href={BLOG.CONTACT_INSTAGRAM} >
         <i className='transform hover:scale-125 duration-150 fab fa-tiktok dark:hover:text-indigo-400 hover:text-indigo-600'/>
       </a>}
       {BLOG.CONTACT_JUEJIN && <a target='_blank' rel='noreferrer' title={'Juejin'} href={BLOG.CONTACT_JUEJIN} >

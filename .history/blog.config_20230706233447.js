@@ -27,8 +27,8 @@ const BLOG = {
   CONTACT_ZHIHU: process.env.NEXT_PUBLIC_CONTACT_ZHIHU || 'https://www.zhihu.com/people/ali-80-26', // 你的微博个人主页
   CONTACT_CSDN: process.env.NEXT_PUBLIC_CONTACT_CSDN || 'https://blog.csdn.net/m0_48945359?spm=1011.2124.3001.5343',
   CONTACT_XHS: process.env.NEXT_PUBLIC_CONTACT_XHS || 'https://www.xiaohongshu.com/user/profile/5d41ac66000000001200dba7', // 你的telegram 地址 例如 https://t.me/tangly_1024
-  CONTACT_BILI: process.env.NEXT_PUBLIC_CONTACT_BILI || 'https://space.bilibili.com/513257621?spm_id_from=333.337.0.0', // 你的linkedIn 首页
-  CONTACT_DOUYIN: process.env.NEXT_PUBLIC_CONTACT_DOUYIN || 'https://v.douyin.com/iheFGBo/', // 您的instagram地址
+  CONTACT_BILI: process.env.NEXT_PUBLIC_CONTACT_LINKEDIN || 'https://space.bilibili.com/513257621?spm_id_from=333.337.0.0', // 你的linkedIn 首页
+  CONTACT_INSTAGRAM: process.env.NEXT_PUBLIC_CONTACT_INSTAGRAM || 'https://v.douyin.com/iheFGBo/', // 您的instagram地址
   CONTACT_JUEJIN: process.env.NEXT_PUBLIC_CONTACT_JUEJIN || 'https://juejin.cn/user/3732156597151325', // 您的instagram地址
 
 
