@@ -15,19 +15,19 @@ const SocialButton = () => {
       {BLOG.CONTACT_GITHUB && <a target='_blank' rel='noreferrer' title={'github'} href={BLOG.CONTACT_GITHUB} >
         <i className='transform hover:scale-125 duration-150 fab fa-github dark:hover:text-indigo-400 hover:text-indigo-600'/>
       </a>}
-      {BLOG.CONTACT_WEIBO && <a target='_blank' rel='noreferrer' title={'Zhihu'} href={BLOG.CONTACT_WEIBO} >
-        <i className='transform hover:scale-125 duration-150 fab fa-zhihu dark:hover:text-indigo-400 hover:text-indigo-600'/>
-      </a>}
       {BLOG.CONTACT_TWITTER && <a target='_blank' rel='noreferrer' title={'csdn'} href={BLOG.CONTACT_TWITTER} >
         <i className='transform hover:scale-125 duration-150 fab fa-copyright dark:hover:text-indigo-400 hover:text-indigo-600'/>
       </a>}
       {BLOG.CONTACT_TELEGRAM && <a target='_blank' rel='noreferrer' href={BLOG.CONTACT_TELEGRAM} title={'XiaoHongShu'} >
         <i className='transform hover:scale-125 duration-150 fab fa-book dark:hover:text-indigo-400 hover:text-indigo-600'/>
       </a>}
-      {BLOG.CONTACT_LINKEDIN && <a target='_blank' rel='noreferrer' href={BLOG.CONTACT_LINKEDIN} title={'Bilibili'} >
-        <i className='transform hover:scale-125 duration-150 fab fa-bilibili dark:hover:text-indigo-400 hover:text-indigo-600'/>
+      {BLOG.CONTACT_LINKEDIN && <a target='_blank' rel='noreferrer' href={BLOG.CONTACT_LINKEDIN} title={'Bili'} >
+        <i className='transform hover:scale-125 duration-150 fab fa-linkedin dark:hover:text-indigo-400 hover:text-indigo-600'/>
       </a>}
-      {BLOG.CONTACT_INSTAGRAM && <a target='_blank' rel='noreferrer' title={'Tiktok'} href={BLOG.CONTACT_INSTAGRAM} >
+      {BLOG.CONTACT_WEIBO && <a target='_blank' rel='noreferrer' title={'weibo'} href={BLOG.CONTACT_WEIBO} >
+        <i className='transform hover:scale-125 duration-150 fab fa-weibo dark:hover:text-indigo-400 hover:text-indigo-600'/>
+      </a>}
+      {BLOG.CONTACT_INSTAGRAM && <a target='_blank' rel='noreferrer' title={'tiktok'} href={BLOG.CONTACT_INSTAGRAM} >
         <i className='transform hover:scale-125 duration-150 fab fa-tiktok dark:hover:text-indigo-400 hover:text-indigo-600'/>
       </a>}
       {BLOG.ENABLE_RSS && <a target='_blank' rel='noreferrer' title={'RSS'} href={'/feed'} >
